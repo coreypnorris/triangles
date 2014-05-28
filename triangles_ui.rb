@@ -3,9 +3,9 @@ require './lib/triangles'
 @list = []
 
 def main_menu
-  puts "Press 't' to determine the type of a triangle."
-  puts "Press 'l' to see all of your triangles or."
-  puts "Press 'x' to exit the program."
+  puts "Press 't' and hit enter to determine the type of a triangle."
+  puts "Press 'l' and hit enter to see all of your triangles or."
+  puts "Press 'x' and hit enter to exit the program."
   main_choice = gets.chomp
   if main_choice == 't'
     triangle
@@ -34,9 +34,6 @@ end
 def list_triangles
   puts "Here are all your triangles"
   puts @list
-  # @list.each do |l|
-  #   puts l.type
-  # end
   main_menu
 end
 
