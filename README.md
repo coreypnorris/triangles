@@ -1,4 +1,4 @@
-##to_do
+##triangles
 
 ####This is a ruby method for determining the type of a triangle by it's sides.
 
